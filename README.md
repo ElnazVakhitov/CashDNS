@@ -7,5 +7,4 @@
 ошибкой и т. д.), если старший сервер почему-то не ответил на запрос. Во время штатного выключения сервер сериализует данные из кэша, сохраняет их на диск. При повторных запусках
 сервер считывает данные с диска и удаляет просроченные записи, инициализирует таким образом свой кэш.
 
-# Видео: 
-https://urfume.sharepoint.com/sites/msteams_c9db7b/Shared%20Documents/General/Recordings/%D0%9A%D0%B5%D1%88%20%D0%94%D0%9D%D0%A1-20210602_153737-%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F.mp4?web=1
+# Видео: https://urfume.sharepoint.com/:v:/r/sites/msteams_c9db7b/Shared%20Documents/General/Recordings/%D0%9A%D0%B5%D1%88%20%D0%94%D0%9D%D0%A1-20210602_153737-%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F.mp4?csf=1&web=1&e=OgY4bB
