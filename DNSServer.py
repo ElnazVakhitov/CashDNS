@@ -59,7 +59,7 @@ def startServer():
                     flag = True
                     if str(client_data.q.qname) in cash:
                         recourse: Recourse = cash.get(str(client_data.q.qname))
-                        query = DNSRecord(q=client_data.q)
+                        query = client_data.reply()
                         if client_data.q.qtype == QTYPE.A and recourse.A:
                             flag = False
                             for addr in recourse.A:
